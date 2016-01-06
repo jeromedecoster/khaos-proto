@@ -1,8 +1,8 @@
 {
-  "name": "{{name}}",
+  "name": "{{basename}}",
   "version": "0.0.0",
-  "description": "{{name}} prototype",
-  "repository": "jeromedecoster/{{name}}",
+  "description": "{{basename}} prototype",
+  "repository": "jeromedecoster/{{basename}}",
   "scripts": {
     "start": "node scripts/start",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,5 +18,6 @@
     "normalize.css": "^3.0.3",
     "strip-comment": "^1.1.3",
     "watchify": "^3.6.1"
-  }
+  },
+  "license": "MIT"
 }

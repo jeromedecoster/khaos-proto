@@ -1,6 +1,6 @@
-# {{name}}
+# {{basename}}
 
-> {{name}} prototype
+> {{basename}} prototype
 
 ## Install
 
