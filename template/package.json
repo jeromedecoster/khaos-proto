@@ -1,6 +1,6 @@
 {
   "name": "{{basename}}",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "{{basename}} prototype",
   "repository": "jeromedecoster/{{basename}}",
   "scripts": {
@@ -8,16 +8,21 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "domready": "^1.0.8"
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "reflux": "^0.3.0"
   },
   "devDependencies": {
+    "autoprefixer": "^6.3.3",
+    "babel-plugin-transform-runtime": "^6.6.0",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.2.0",
     "browser-sync": "^2.11.0",
-    "browserify": "^12.0.1",
-    "chokidar": "^1.4.2",
-    "myth": "^1.5.0",
-    "normalize.css": "^3.0.3",
-    "strip-comment": "^1.1.3",
-    "watchify": "^3.6.1"
+    "browserify": "^13.0.0",
+    "chokidar": "^1.4.3",
+    "postcss": "^5.0.18",
+    "watchify": "^3.7.0"
   },
   "license": "MIT"
 }

@@ -1,6 +1,6 @@
 
-const domready = require('domready')
+const Main = require('./components/Main')
+const ReactDOM = require('react-dom')
+const React = require('react')
 
-domready(function() {
-  console.log('dom is ready')
-})
+ReactDOM.render(<Main/>, document.querySelector('[{{basename}}]'))
